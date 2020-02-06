@@ -2,28 +2,32 @@
 
 body {
     background-color: #8EFAEF;
+    padding: 0;
 }
 
 
 /*Header*/
 
+.content {
+        width: 1000px;
+        margin: 0 auto;
+        text-align: inherit;
+        
+}
+
 header {
     text-align: center;
     background-color: #07C707;
     border-style: double;
-    margin: 15px;
+    margin: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: -10px;
 }
 
 h1 {
     font-style: italic;   
 }
 
-p {
-    text-align: justify;
-}
 
 /*Sections*/
 
@@ -31,16 +35,20 @@ section {
     text-align: inherit;
     background-color: #07C707;
     width: 50%;
-    margin-left: 50px;
+    margin: 0 auto;
     padding-left:4px;
-
+    border-style: double;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
+
 
 /*Keep in Touch*/
 
 footer {
     background-color: #07C707;
     width: 30%;
-    margin-left: 500px;
     padding-left: 8px;
+    border-style: double;
+    margin: 0 auto;
 }
