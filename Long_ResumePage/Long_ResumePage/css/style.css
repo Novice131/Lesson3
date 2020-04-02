@@ -11,40 +11,49 @@ html {
 
 body {
     background-color: #8EFAEF;
-    margin: 2;
+    margin: 10px;
 }
 
 
 /*Header*/
 
+
+.navbar{
+    display: flex;
+    align-content: center;
+    border-width: 5px;
+    border-style: double;
+    border-color: darkblue;
+    justify-content: space-between;
+    background-color: #07C707;
+    max-height: 75px;
+    max-width: 600px;
+    flex-direction: row;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0 auto;
+    max-width: 600px;
+    width: 50%
+    
+}
+
+
 ul {
-    list-style: none;
-    text-align: center;
-}
-
-ul li {
-    font: italic;
-    font-size: 20px;
-    display: inline-block;
-    position: relative;
-    padding: 25px 40px;
-    background-color: rgb(97, 104, 97);
-    cursor: pointer;
-    border-style: round;
-}
-
-.navbar {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    max-width: 600px;
     padding-left: 18px;
     padding-right: 20px;
-    margin: 10px;
+    margin: 0 auto;
+    align-content: center;
+    list-style: none;
+    font-size: 25em;
+    background-color: rgb(97, 104, 97);
+    cursor: pointer;
+    padding: 20px;
 }
 
-
-
-.content {
-        width: 75%;
-        margin: 0;       
-}
 
 header {
     text-align: center;
@@ -65,10 +74,16 @@ h1 {
 
 /*Sections*/
 
+
+.waketech {
+    text-align: left;
+}
 section {
     text-align: inherit;
     background-color: #07C707;
+    min-width: 400px;
     width: 50%;
+    align-content: left;
     margin: 0 auto;
     padding-left: 10px;
     padding-right: 5px;
@@ -80,15 +95,27 @@ section {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
+/*/
+.content {
+    display: flex;
+    flex-direction: column;
+    align-content: left;
+    text-align: center; 
+    width: 75%;
+    margin: 10px;       
+}
+/*/
 
 /*Keep in Touch*/
 
-
+h3 {
+    text-align: center;
+}
 
 .form {
     display: flex;
     flex-direction: column;
+    text-align: left;
     flex-wrap: wrap;
     padding-top: 10px;
     padding-bottom: 5px;
@@ -98,13 +125,25 @@ section {
 
 }
 
+.contacts {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0 auto;
+}
 
 footer {
     background-color: #07C707;
     width: 50%;
-    padding: 10px;
     margin: 0 auto;
-    text-align: left;
+    text-align: inherit;
     padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 2px;
+    padding-bottom: 10px;
+    border-style: double;
+    border-width: 3px;
+    border-color: darkblue;
     
 }
